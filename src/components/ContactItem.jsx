@@ -3,7 +3,7 @@ export default function ContactItem({ imgUrl, name, email }) {
     <div className="contact__item__container">
       <div className="contact__detail__container">
         <img
-          src={imgUrl ?? "../../public/images/images.png"}
+          src={imgUrl ?? "https://dummyjson.com/image/400x200/008080/ffffff?text=Hello+Peter"}
           width={128}
           height={128}
           alt={name}

@@ -5,6 +5,7 @@ export default function ContactInput() {
   const formRef = React.useRef(null);
 
   const handleSubmit = (e) => {
+    e.preventDefault()
     const form = formRef.current;
 
     e.preventDefault();

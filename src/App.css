@@ -119,6 +119,7 @@ body {
 .footer__visit {
     font-style: italic;
     color: blue;
+    align-items: center;
 }
 
 .main__container__input.valid {
